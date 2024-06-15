@@ -23,8 +23,8 @@ public class test_3 {
 			System.out.println("The error message is not given out");
 		}
 		
-		//wait for 5 seconds and close driver
-		Thread.sleep(5000);
+		//wait for 2.5 seconds and close driver
+		Thread.sleep(2500);
 		driver.close();
 		
 		//finish test case 3
