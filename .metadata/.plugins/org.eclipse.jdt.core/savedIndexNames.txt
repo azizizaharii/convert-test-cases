@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\test_selenium\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+497299898.index
+1910805590.index
+3482933926.index
+1174180426.index

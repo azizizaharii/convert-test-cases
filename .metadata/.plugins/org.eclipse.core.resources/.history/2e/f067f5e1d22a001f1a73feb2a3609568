@@ -1,0 +1,40 @@
+package test_selenium_java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class test_3 {
+	public static void case_3(WebDriver driver) throws InterruptedException{
+		
+		System.out.println("Carrying out Test Case 3");
+				
+		//type into "Amount" text box and wait for 2.5 seconds
+		WebElement TypeAmount = driver.findElement(By.id("amount"));
+		TypeAmount.click();
+		TypeAmount.sendKeys("hello");
+		Thread.sleep(2500);
+		
+		WebElement ErrorMessage = driver.findElement(By.xpath("//*[@id=\"__next\"]/div[4]/div[2]/section/div[2]/div/main/div/div[1]/div[2]"));
+		System.out.println(ErrorMessage);
+							
+		//click on "Convert" and wait for 5 seconds
+		//WebElement ClickConvert = driver.findElement(By.xpath("//*[@id=\'__next\']/div[4]/div[2]/section/div[2]/div/main/div/div[2]/button"));
+		//ClickConvert.click();
+		//Thread.sleep(5000);
+				
+		//click on "Swap currencies" and wait for 5 seconds
+		//WebElement ClickSwap = driver.findElement(By.xpath("//*[@id=\"__next\"]/div[4]/div[2]/section/div[2]/div/main/div/div[1]/div[6]/button"));
+		//ClickSwap.click();
+		//Thread.sleep(5000);
+				
+		//wait for 5 seconds and close driver
+		//Thread.sleep(5000);
+		//driver.close();
+		
+		//finish test case 2
+		//System.out.println("Test Case 2 finished");
+		//Thread.sleep(5000);
+	}
+}
