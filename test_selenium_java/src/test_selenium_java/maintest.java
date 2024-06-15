@@ -30,7 +30,7 @@ public class maintest {
 			System.out.println(title);
 		
 		//Carrying out the test case 1
-		test_4.case_4(driver);
+		test_1.case_1(driver);
 		
 		
 		

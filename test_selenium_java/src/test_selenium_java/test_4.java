@@ -25,7 +25,7 @@ public static void case_4(WebDriver driver) throws InterruptedException{
 		TextboxTo.sendKeys(Keys.RETURN);
 		Thread.sleep(2500);
 		
-		String newAmount = "25.65";
+		String newAmount = "347625.65";
 		
 		//type hello into "Amount" text box and wait for 2.5 seconds
 		WebElement TypeAmount = driver.findElement(By.xpath("//*[@id=\"amount\"]"));
